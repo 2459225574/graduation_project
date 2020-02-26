@@ -1,6 +1,8 @@
+#全局配置
 server:
-  port: 8001
   servlet:
+    # 项目contextPath，一般在正式发布版本中，我们不配置
+    context-path: /
     # session最大超时时间(分钟)，默认为30
     session:
       timeout: 60m
@@ -10,7 +12,6 @@ logging:
   level:
     com.geekcattle : debug
   file : "${user.home}/logs/spring-boot-logging.log"
-
 
 management:
   endpoints:
@@ -22,69 +23,65 @@ management:
     health:
       show-details: always
 
-
 spring:
   application:
-    name: user_manage_system_service
+    name: geek-framework
+  profiles:
+    #默认启动模式
+    active: dev
   main:
     allow-bean-definition-overriding: true
-  profiles:
-    #active: @spring.active@
+  #MVC配置
   mvc:
     view:
-      prefix: "classpath:/templates/"
-      suffix: ".html"
-    date-format: "yyyy-MM-dd HH:mm:ss"
+      prefix : "classpath:/templates/"
+      suffix : ".html"
+    date-format : "yyyy-MM-dd HH:mm:ss"
+  #槿板配置
   thymeleaf:
-    mode: "HTML"
-    cache: false
-    encoding: "UTF-8"
+    mode : "HTML"
+    cache : false
+    encoding : "UTF-8"
     servlet:
       content-type: "text/html"
+
+  # 使用druid数据源
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/graduation_user_manage?characterEncoding=utf8&useSSL=true
-    username: root
-    password: 123456
-  jpa:
-    database: mysql
-    show-sql: true
-    open-in-view: true
+    type : com.alibaba.druid.pool.DruidDataSource
+    driver-class-name : com.mysql.cj.jdbc.Driver
+    dbcp2:
+      test-while-idle: false
+      validation-query: SELECT 'x'
   #json配置
   jackson:
-    time-zone: Asia/Chongqing
-    date-format: yyyy-MM-dd HH:mm:ss
-    joda-date-time-format: yyyy-MM-dd HH:mm:ss
+    time-zone : Asia/Chongqing
+    date-format : yyyy-MM-dd HH:mm:ss
+    joda-date-time-format : yyyy-MM-dd HH:mm:ss
   # REDIS基础配置
   redis:
     jedis:
       pool:
-        # 连接池最大连接数（使用负值表示没有限制）
-        max-active: 8
-        # 连接池最大阻塞等待时间（使用负值表示没有限制）毫秒
-        max-wait: -1ms
-        # 连接池中的最大空闲连接
-        max-idle: 8
-        # 连接池中的最小空闲连接
-        min-idle: 0
+          # 连接池最大连接数（使用负值表示没有限制）
+          max-active : 8
+          # 连接池最大阻塞等待时间（使用负值表示没有限制）毫秒
+          max-wait: -1ms
+          # 连接池中的最大空闲连接
+          max-idle : 8
+          # 连接池中的最小空闲连接
+          min-idle : 0
       # 连接超时时间（毫秒）
-    database: 1
-    host: 127.0.0.1
-    port: 6379
-      #password : 123456
-    timeout: 500ms
-
+    timeout : 500ms
 
 #mybaties配置
 mybatis:
   mapper-locations: classpath:mapper/*.xml,classpath:mapper/*/*.xml
-  type-aliases-package: com.cc.model
+  type-aliases-package: com.geekcattle.model
 
 #mapper配置
 mapper:
   plugin : tk.mybatis.mapper.generator.MapperPlugin
   not-empty: false
-  mappers : com.cc.core.CustomerMapper
+  mappers : com.geekcattle.core.CustomerMapper
 
 #pagehelper
 pagehelper:
@@ -162,24 +159,59 @@ aliyun:
     domain :
 
 
+#七牛上传配置
 qiniu:
+  ##七牛AK
   access-key :
+  ##七牛SK
   secret-key :
+  ##七牛token空间
   bucket :
+  ##七牛访问地址CDN
   domain :
 
-##ueditor文件上传配置JSON
+  ##ueditor文件上传配置JSON
 ueditor:
   config:
     json:
       path : "static/assets/ueditor/config.json"
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:9000/eureka/,http://localhost:8000/eureka/
-  instance:
-    #prefer-ip-address: true  #ip地址作为注册名
-    instance-id: ${spring.cloud.client.ip-address}:${server.port} #向注册中注册服务id
-    lease-renewal-interval-in-seconds: 3 #发送心跳的间隔
-    lease-expiration-duration-in-seconds: 6 #续约到期时间
+---
+
+#开发环境
+spring:
+  profiles: dev
+  datasource:
+      name : geekcattle
+      username  : root
+      password  : 123456
+      url : jdbc:mysql://localhost:3306/geekcattle?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+  redis:
+    database : 0
+    host : 127.0.0.1
+    port : 6379
+#    password : Hao123
+
+server:
+  port: 8001
+
+
+---
+
+#测试环境
+spring:
+  profiles: pro
+  datasource:
+      name : geekcattle
+      username  : geekcattle
+      password  : GeekCattle
+      url : jdbc:mysql://localhost:3306/geekcattle?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+  redis:
+      database : 0
+      host : 127.0.0.1
+      port : 6379
+      password : Test123
+server:
+  port: 8001
+
+---
