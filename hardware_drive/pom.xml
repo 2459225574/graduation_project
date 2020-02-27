@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.itstyle.cloud</groupId>
-  <artifactId>spring-boot-CloudDisk</artifactId>
+  <artifactId>hardware_drive</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>spring-boot-CloudDisk</name>
@@ -100,6 +100,10 @@
 		    <artifactId>spring-boot-devtools</artifactId>
 		    <optional>true</optional>
 		</dependency>
+	  <dependency>
+		  <groupId>org.projectlombok</groupId>
+		  <artifactId>lombok</artifactId>
+	  </dependency>
   </dependencies>
   <build>
         <finalName>spring-boot-CloudDisk</finalName>

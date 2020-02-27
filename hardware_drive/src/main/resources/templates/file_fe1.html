@@ -125,24 +125,28 @@
                 </ul>
             </div>
         </div>
-        <div class="tpl-content-wrapper">
-
-            
-            <div class="fileIcon">
-                <img class="fileImg" src="img/fjj.png">
-                <div class="fileText">32534645754ghfj</div>
-            </div>
+        <div class="tpl-content-wrapper back_dic" id="back_catalog">../</div>
+        <div class="tpl-content-wrapper" id="fileRootPath"></div>
+        <div id="menu">
+            <div class="menu" onmouseover="this.className='menu_gray'" onmouseleave="this.className='menu'">复制文件地址</div>
+            <div class="menu" onmouseover="this.className='menu_gray'" onmouseleave="this.className='menu'">下载</div>
+            <div class="menu" onmouseover="this.className='menu_gray'" onmouseleave="this.className='menu'">删除</div>
+            <div class="menu" onmouseover="this.className='menu_gray'" onmouseleave="this.className='menu'">更多</div>
         </div>
         <style>
             .fileIcon{
                 width: 10%;
                 /*height: 50px;*/
                 background: greenyellow;
+                display: inline-block;
+                margin: 2px;
             }
             .fileImg{
                 width: 100%;
             }
-
+            .back_dic{
+                background-color: greenyellow;
+            }
             .fileText{
                 text-align: center;
                 width: 100%;
@@ -150,6 +154,26 @@
                 margin-top: -0.8em;
                 font-size: 0.9em;
                 overflow: hidden;
+            }
+            #menu{
+                width: 0; /*设置为0 隐藏自定义菜单*/
+                height: 100px;
+                overflow: hidden; /*隐藏溢出的元素*/
+                box-shadow: 0 1px 1px #888,1px 0 1px #ccc;
+                position: fixed; /*自定义菜单相对与body元素进行定位*/
+            }
+            .menu_gray{
+                width: 130px;
+                height: 25px;
+                line-height: 25px;
+                padding: 0 10px;
+                background-color: gray;
+            }
+            .menu{
+                width: 130px;
+                height: 25px;
+                line-height: 25px;
+                padding: 0 10px;
             }
         </style>
     <script src="layui/layui.js" charset="utf-8"></script>
@@ -160,16 +184,85 @@
     <script th:src="@{libs/vue.min.js}"></script>
     <script th:src="@{/iview/iview.min.js}" type="text/javascript"></script>
     <script type="text/javascript">
+        function mouserStyle(){
+            alert("click");
+        }
         $(function () {
             var vm = new Vue({
                 el: '#app',
-
+                data:{
+                    path:[],
+                    pathData:{}
+                },
                 methods: {
                     loadFilePath:function () {
-                        let div1 = document.createElement("div");
-                        let div2 = document.createElement("div");
-                        let img = document.createElement("img");
+                        $.ajax({
+                            url:"file/FileList",
+                            method:"GET",
+                            datat:"json",
+                            data:{
+                                rootPath:"D:\\cloudFile_other"
+                            },
+                            success:function (response) {
+                                vm.pathData = response.data;
+                                vm.displayFile();
+                            },
+                            fail:function (error) {
+                                self.$Notice.warning({
+                                    title: '友情提醒',
+                                    desc: '拉取文件列表信息失败'
+                                });
+                            }
+                        })
 
+
+                    },
+                    displayFile: function(){
+                        let data = this.pathData;
+                        for(let i = 0;i<this.path.length;i++){
+                            data = data[this.path[i]].list;
+                        }
+                        let div = document.getElementById("fileRootPath");
+                        for (let i = 0 ;i<data.length;i++){
+                            let div1 = document.createElement("div");
+                            let div2 = document.createElement("div");
+                            let img = document.createElement("img");
+                            div1.classList.add("fileIcon");
+                            div1.id = data[i].name;
+                            div2.id = data[i].name;
+                            img.id = data[i].name;
+                            div1.oncontextmenu = (e)=>{
+                                e.preventDefault();
+                                var menu=document.querySelector("#menu");
+                                menu.style.left=e.clientX+'px';
+                                menu.style.top=e.clientY+'px';
+                                menu.style.width='125px';
+                                menu.data = e.target.id;
+                            };
+                            div1.addEventListener("click",()=>{vm.fileClick(i,data[i].type)});
+                            div2.classList.add("fileText");
+                            div2.innerText = data[i].name;
+                            img.classList.add("fileImg");
+                            if (data[i].type==0)
+                                img.src = "img/fjj.png";
+                            else
+                                img.src = "img/fj.png";
+                            div1.appendChild(img);
+                            div1.appendChild(div2);
+                            div.appendChild(div1);
+                        }
+                    },
+                    fileClick:function(index,type){
+                        if (type == 1) return ;
+                        document.getElementById("fileRootPath").innerHTML = "";
+                        vm.path.push(index);
+                        vm.displayFile();
+                    },
+                    back_catalog:function () {
+                        if (vm.path.length<=0) return;
+                        document.getElementById("fileRootPath").innerHTML = "";
+                        vm.path.splice(vm.path.length-1,1);
+                        vm.displayFile();
                     },
                     logout: function (event) {
                         var self = this;
@@ -198,7 +291,18 @@
 
                 },
                 created: function(){
-
+                    this.loadFilePath();
+                    document.getElementById("back_catalog").addEventListener("click",()=>{vm.back_catalog();});
+                    // window.oncontextmenu=function(e){
+                    //     e.preventDefault();
+                    //     alert('onclick')
+                    //     var menu=document.querySelector("#menu");
+                    //     menu.style.left=e.clientX+'px';
+                    //     menu.style.top=e.clientY+'px';
+                    // }
+                    window.onclick=function(e){
+                        document.querySelector('#menu').style.width=0;
+                    }
                 }
             });
         });
