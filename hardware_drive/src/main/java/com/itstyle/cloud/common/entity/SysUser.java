@@ -2,6 +2,7 @@ package com.itstyle.cloud.common.entity;
 
 import static javax.persistence.GenerationType.IDENTITY;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 import javax.persistence.Column;
@@ -19,7 +20,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Entity
 @Table(name = "sys_user")
 @JsonIgnoreProperties(value = {"hibernateLazyInitializer", "handler"})
-public class SysUser {
+public class SysUser implements Serializable {
 
 	private Integer id;
 	private String username;

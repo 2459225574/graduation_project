@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c49c62f7-212b-4e0b-8901-819ed954b4f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hardware_drive/src/main/resources/static/img/iot.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/resources/static/img/itstyle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_manage_system/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_manage_system/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_manage_system/target/classes/com/cc/HardwareManageServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_manage_system/target/classes/com/cc/HardwareManageServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_manage_system/target/classes/com/cc/controller/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_manage_system/target/classes/com/cc/controller/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,51 +83,55 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
+          <entry key="class" value="4" />
           <entry key="css" value="1" />
-          <entry key="html" value="5" />
+          <entry key="html" value="9" />
           <entry key="iml" value="2" />
-          <entry key="java" value="42" />
+          <entry key="java" value="53" />
           <entry key="jpg" value="2" />
+          <entry key="jsp" value="1" />
           <entry key="md" value="1" />
           <entry key="png" value="2" />
           <entry key="pom" value="1" />
-          <entry key="properties" value="1" />
+          <entry key="properties" value="5" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="21" />
-          <entry key="yml" value="17" />
+          <entry key="xml" value="22" />
+          <entry key="yml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
+          <entry key="CLASS" value="4" />
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="5" />
+          <entry key="HTML" value="9" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="42" />
+          <entry key="JAVA" value="53" />
+          <entry key="JSP" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="Properties" value="1" />
+          <entry key="Properties" value="5" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="22" />
-          <entry key="YAML" value="17" />
+          <entry key="XML" value="23" />
+          <entry key="YAML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="html" value="163" />
-          <entry key="java" value="1356" />
-          <entry key="txt" value="19" />
+          <entry key="html" value="208" />
+          <entry key="java" value="1363" />
+          <entry key="properties" value="181" />
+          <entry key="txt" value="29" />
           <entry key="xml" value="170" />
           <entry key="yml" value="977" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="163" />
-          <entry key="JAVA" value="1356" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="HTML" value="208" />
+          <entry key="JAVA" value="1363" />
+          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="Properties" value="181" />
           <entry key="XML" value="170" />
           <entry key="YAML" value="977" />
         </counts>
@@ -139,20 +139,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="153" column="58" selection-start-line="153" selection-start-column="41" selection-end-line="153" selection-end-column="58" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -201,6 +188,8 @@
         <option value="$PROJECT_DIR$/hardware_drive/src/main/java/com/cc/HardwareDriveApplication.java" />
         <option value="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/Application.java" />
         <option value="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/hardware_drive/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/index.html" />
       </list>
     </option>
@@ -233,9 +222,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="537" />
-    <option name="y" value="86" />
-    <option name="width" value="979" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -274,55 +262,28 @@
             <path>
               <item name="graduation_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware_drive" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hardware_manage_system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware_drive" type="462c0819:PsiDirectoryNode" />
+              <item name="hardware_manage_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware_drive" type="462c0819:PsiDirectoryNode" />
+              <item name="hardware_manage_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware_drive" type="462c0819:PsiDirectoryNode" />
+              <item name="hardware_manage_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware_drive" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware_drive" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -341,8 +302,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582789250092" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-fileAdmin-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582798108318" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../elfinder-java-connector-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -490,18 +451,25 @@
       <workItem from="1582681940862" duration="711000" />
       <workItem from="1582684273193" duration="4388000" />
       <workItem from="1582708560128" duration="3778000" />
-      <workItem from="1582771245071" duration="4802000" />
+      <workItem from="1582771245071" duration="13745000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次修改">
+      <created>1582789513758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582789513758</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45978000" />
+    <option name="totallyTimeSpent" value="54921000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29758713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24731903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -513,7 +481,7 @@
       <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70241284" weight="0.32914925" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.70241284" visible="true" weight="0.3282123" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7205094" weight="0.3980447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -549,28 +517,10 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/graduation_project" />
     </ignored-roots>
+    <MESSAGE value="第一次修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次修改" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-jpa/2.0.3.RELEASE/spring-boot-starter-data-jpa-2.0.3.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1a404795-05ff-4ca2-ae79-47212a8fd643/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/entity/User.java" />
-    <entry file="file://$PROJECT_DIR$/hardware_drive/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/entity/UserBaseInfo.java" />
-    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/dao/UserBaseInfoDao.java" />
-    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/service/UserBaseInfoService.java" />
-    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/service/serviceImpl/UserBaseInfoServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/eureka_server/src/main/java/com/cc/eureka.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.0.RELEASE/spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -632,13 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="22" column="83" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -746,20 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/web/CloudDiskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/static/img/itstyle.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -789,34 +718,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/templates/disk.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3111">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/static/assets/i/examples/admin-chrome.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/static/assets/i/examples/admin-firefox.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/elfinder/core/impl/NIO2FileSystemTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.10.RELEASE/spring-data-jpa-1.11.10.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/web/CloudDiskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/templates/disk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="213" column="10" selection-start-line="213" selection-start-column="10" selection-end-line="213" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
-          <caret line="153" column="58" selection-start-line="153" selection-start-column="41" selection-end-line="153" selection-end-column="58" />
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/elfinder/support/locale/LocaleUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="97" column="35" lean-forward="true" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="154" column="50" selection-start-line="154" selection-start-column="50" selection-end-line="154" selection-end-column="50" />
           <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
