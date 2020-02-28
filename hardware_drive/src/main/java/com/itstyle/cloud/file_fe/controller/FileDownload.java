@@ -19,10 +19,10 @@ import java.io.*;
 public class FileDownload {
 
     @RequestMapping("/download")
-    public String downLoad(HttpServletResponse response,@RequestParam String filename) throws UnsupportedEncodingException {
+    public String downLoad(HttpServletResponse response,@RequestParam String filePath,@RequestParam String filename) throws UnsupportedEncodingException {
 //        String filename="2.xlsx";
-        String filePath = "D:\\cloudFile_other" ;
-        File file = new File(filePath + "/" + filename);
+//        String filePath = "D:\\cloudFile_other" ;
+        File file = new File(filePath+filename);
         if(file.exists()){ //判断文件父目录是否存在
             response.setContentType("application/vnd.ms-excel;charset=UTF-8");
             response.setCharacterEncoding("UTF-8");

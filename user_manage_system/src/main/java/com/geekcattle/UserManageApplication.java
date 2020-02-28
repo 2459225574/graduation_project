@@ -30,10 +30,10 @@ import tk.mybatis.spring.annotation.MapperScan;
 @EnableConfigurationProperties
 @EnableTransactionManagement
 @MapperScan("com.geekcattle.mapper")
-public class Application {
+public class UserManageApplication {
 
     public static void main(String[] args){
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(UserManageApplication.class, args);
     }
 
 }

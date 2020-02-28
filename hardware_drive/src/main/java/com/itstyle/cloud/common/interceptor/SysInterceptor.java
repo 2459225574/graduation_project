@@ -17,17 +17,22 @@ public class SysInterceptor  implements HandlerInterceptor {
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response,
 			Object handler) throws Exception {
-		if (handler instanceof HandlerMethod){
-			SysUser user =  (SysUser) request.getSession().getAttribute("user");
-			if(user==null){
-				response.sendRedirect("/");
-				return false;
-			}else{
-				return true;
-			}
-		}else{
-			return true;
-		}
+
+		//拦截所有请求
+		//使用ribbon请求用户模块去验证用户是否登录
+
+//		if (handler instanceof HandlerMethod){
+//			SysUser user =  (SysUser) request.getSession().getAttribute("user");
+//			if(user==null){
+//				response.sendRedirect("/");
+//				return false;
+//			}else{
+//				return true;
+//			}
+//		}else{
+//			return true;
+//		}
+		return true;
 	}
 
 	@Override

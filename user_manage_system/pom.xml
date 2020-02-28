@@ -5,7 +5,7 @@
     <artifactId>geek-framework</artifactId>
     <packaging>jar</packaging>
     <version>2.0-SNAPSHOT</version>
-    <name>Geek-Framework</name>
+    <name>user_manage_system</name>
     <url>http://www.geekcattle.com</url>
 
     <parent>
@@ -266,7 +266,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <mainClass>com.geekcattle.Application</mainClass>
+                    <mainClass>com.geekcattle.UserManageApplication</mainClass>
                     <fork>true</fork><!-- 如果没有该项配置，这个devtools不会起作用，即应用不会restart -->
                 </configuration>
             </plugin>
