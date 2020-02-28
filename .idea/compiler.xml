@@ -9,9 +9,11 @@
         <module name="eureka_server" />
         <module name="eureka_server_backups" />
         <module name="hardware_drive" />
-        <module name="hardware_manage_system" />
         <module name="user_manage_system" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hardware_manage_system" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

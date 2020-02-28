@@ -2,28 +2,834 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c49c62f7-212b-4e0b-8901-819ed954b4f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hardware_drive/src/main/resources/static/img/zyzx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/file_fe_upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/file_fe2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/SQL/CloudDisk.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/HardwareDriveApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/config/AbstractController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/config/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/constant/MsgConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/constant/SystemConstant$MacroType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/constant/SystemConstant$MenuType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/constant/SystemConstant$StatusType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/constant/SystemConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/dynamicquery/DynamicQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/dynamicquery/DynamicQueryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/dynamicquery/NativeQueryResultEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/ElFinderConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/AbstractCommand$Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/AbstractCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/AbstractJsonCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/ArchiveCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/CommandFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/CommandFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/DimCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/DuplicateCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/ElfinderCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/ElfinderCommandFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/ExtractCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/FileCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/GetCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/LsCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/MkdirCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/MkfileCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/OpenCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/ParentsCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/PasteCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/PutCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/RenameCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/RmCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/SearchCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/SizeCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/TmbCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/TreeCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/UploadCommand$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/UploadCommand$FileWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/UploadCommand$Part.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/UploadCommand$Parts$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/UploadCommand$Parts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/command/UploadCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/configuration/ElFinderConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/configuration/ElfinderConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/configuration/ElfinderConfigurationUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/core/ElfinderContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/core/Target.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/core/Volume.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/core/VolumeBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/core/VolumeSecurity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/core/impl/DefaultVolumeSecurity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/core/impl/NIO2FileSystemTarget.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/core/impl/NIO2FileSystemVolume$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/core/impl/NIO2FileSystemVolume$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/core/impl/NIO2FileSystemVolume.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/core/impl/SecurityConstraint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/exception/ElFinderException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/exception/ElfinderConfigurationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/exception/VolumeIOException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/exception/VolumeSourceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/param/Constraint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/param/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/param/Thumbnail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/service/ElfinderStorage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/service/ElfinderStorageFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/service/ThumbnailWidth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/service/VolumeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/service/VolumeSources$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/service/VolumeSources.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/service/impl/DefaultElfinderStorage$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/service/impl/DefaultElfinderStorage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/service/impl/DefaultElfinderStorageFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/service/impl/DefaultThumbnailWidth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/archiver/AbstractArchiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/archiver/Archiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/archiver/ArchiverOption.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/archiver/ArchiverType$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/archiver/ArchiverType$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/archiver/ArchiverType$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/archiver/ArchiverType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/archiver/GzipArchiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/archiver/TarArchiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/archiver/ZipArchiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/concurrency/GenericCache$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/concurrency/GenericCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/content/detect/Detector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/content/detect/NIO2FileTypeDetector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/locale/LocaleUtils$SyncAvoid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/locale/LocaleUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/nio/NioHelper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/nio/NioHelper$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/nio/NioHelper$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/nio/NioHelper$FileTreeSearch$MatchMode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/nio/NioHelper$FileTreeSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/nio/NioHelper$FileTreeSize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/elfinder/support/nio/NioHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/entity/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/exception/RRException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/exception/RRExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/interceptor/MyAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/interceptor/MyWebAppConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/interceptor/SysInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/util/CommonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/util/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/common/util/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/entity/FileInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/entity/ResponseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/file_fe/controller/FileDownload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/file_fe/controller/FileUpload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/utils/FilePath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/web/CloudDiskController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/web/CloudDiskController$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/web/CloudDiskController$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/web/CloudDiskController$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/web/CloudDiskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/web/FileListController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/com/itstyle/cloud/web/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/css/amazeui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/app-icon72x72@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/examples/admin-chrome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/examples/admin-firefox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/examples/admin-ie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/examples/admin-opera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/examples/admin-safari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/examples/adminPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/examples/blogPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/examples/landing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/examples/landingPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/examples/loginPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/examples/sidebarPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/i/startup-640x1096.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/a1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/a10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/a2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/a3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/a4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/a5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/a6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/a7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/a8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/a9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/lbbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/syncfusion-icons-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/user01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/user02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/user03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/user04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/user05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/user06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/img/user07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/js/amazeui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/js/iscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-beautify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-chromevox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-elastic_tabstops_lite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-emmet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-error_marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-keybinding_menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-language_tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-linking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-modelist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-old_ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-searchbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-settings_menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-spellcheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-split.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-static_highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-statusbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-textarea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-themelist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/ext-whitespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/keybinding-emacs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/keybinding-vim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-abap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-abc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-actionscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-ada.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-apache_conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-applescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-asciidoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-assembly_x86.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-autohotkey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-batchfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-bro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-c9search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-c_cpp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-cirru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-clojure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-cobol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-coffee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-coldfusion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-csharp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-csound_document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-csound_orchestra.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-csound_score.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-curly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-dart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-diff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-django.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-dockerfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-dot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-drools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-eiffel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-ejs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-elixir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-elm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-erlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-forth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-fortran.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-ftl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-gcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-gherkin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-gitignore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-glsl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-gobstones.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-golang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-graphqlschema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-groovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-haml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-handlebars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-haskell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-haskell_cabal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-haxe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-hjson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-html_elixir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-html_ruby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-ini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-io.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-jack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-jade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-java.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-jsoniq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-jsp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-jssm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-jsx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-julia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-kotlin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-latex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-less.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-liquid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-lisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-live_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-livescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-logiql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-lsl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-luapage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-lucene.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-makefile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-mask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-matlab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-maze.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-mel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-mips_assembler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-mipsassembler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-mushcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-mysql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-nix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-nsis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-objectivec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-ocaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-pascal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-perl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-pgsql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-pig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-plain_text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-powershell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-praat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-prolog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-protobuf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-r.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-razor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-rdoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-red.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-rhtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-rst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-ruby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-rust.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-sass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-scad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-scala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-scheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-scss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-sh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-sjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-smarty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-snippets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-soy_template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-space.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-sparql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-sqlserver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-stylus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-swift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-swig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-tcl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-tex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-textile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-toml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-tsx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-turtle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-twig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-typescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-vala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-vbscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-velocity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-verilog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-vhdl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-wollok.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-xquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/mode-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/abap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/abc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/actionscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/ada.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/apache_conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/applescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/asciidoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/assembly_x86.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/autohotkey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/batchfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/bro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/c9search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/c_cpp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/cirru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/clojure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/cobol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/coffee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/coldfusion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/csharp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/csound_document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/csound_orchestra.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/csound_score.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/curly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/dart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/diff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/django.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/dockerfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/dot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/drools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/eiffel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/ejs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/elixir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/elm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/erlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/forth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/fortran.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/ftl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/gcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/gherkin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/gitignore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/glsl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/gobstones.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/golang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/graphqlschema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/groovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/haml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/handlebars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/haskell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/haskell_cabal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/haxe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/hjson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/html_elixir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/html_ruby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/ini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/io.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/jack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/jade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/java.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/jsoniq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/jsp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/jssm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/jsx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/julia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/kotlin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/latex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/less.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/liquid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/lisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/live_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/livescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/logiql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/lsl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/luapage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/lucene.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/makefile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/mask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/matlab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/maze.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/mel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/mips_assembler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/mipsassembler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/mushcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/mysql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/nix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/nsis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/objectivec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/ocaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/pascal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/perl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/pgsql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/pig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/plain_text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/powershell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/praat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/prolog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/protobuf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/r.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/razor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/rdoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/red.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/rhtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/rst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/ruby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/rust.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/sass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/scad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/scala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/scheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/scss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/sh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/sjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/smarty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/snippets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/soy_template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/space.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/sparql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/sqlserver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/stylus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/swift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/swig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/tcl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/tex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/textile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/toml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/tsx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/turtle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/twig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/typescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/vala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/vbscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/velocity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/verilog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/vhdl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/wollok.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/xquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/snippets/yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-ambiance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-chaos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-chrome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-clouds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-clouds_midnight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-cobalt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-crimson_editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-dawn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-dracula.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-dreamweaver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-eclipse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-github.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-gob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-gruvbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-idle_fingers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-iplastic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-katzenmilch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-kr_theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-kuroir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-merbivore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-merbivore_soft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-mono_industrial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-monokai.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-pastel_on_dark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-solarized_dark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-solarized_light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-sqlserver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-terminal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-textmate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-tomorrow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-tomorrow_night.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-tomorrow_night_blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-tomorrow_night_bright.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-tomorrow_night_eighties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-twilight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-vibrant_ink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/theme-xcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/worker-coffee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/worker-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/worker-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/worker-javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/worker-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/worker-lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/worker-php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/worker-xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/ace/worker-xquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/css/elfinder.full.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/css/elfinder.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/arrows-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/arrows-normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/crop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/dialogs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/edit_aceeditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/edit_ckeditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/edit_ckeditor5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/edit_codemirror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/edit_creativecloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/edit_pixlreditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/edit_pixlrexpress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/edit_simplemde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/edit_tinymce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/edit_zohooffice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/icons-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/icons-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/progress.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/quicklook-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/quicklook-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/resize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/spinner-mini.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/toolbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/trashmesh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/volume_icon_box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/volume_icon_dropbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/volume_icon_ftp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/volume_icon_googledrive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/volume_icon_local.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/volume_icon_onedrive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/volume_icon_sql.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/volume_icon_trash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/img/volume_icon_zip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/jquery-ui-1.12.1.custom/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/elfinder.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/elfinder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/extras/editors.default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/extras/editors.default.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/extras/quicklook.googledocs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/extras/quicklook.googledocs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.LANG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.fallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.ug_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/elfinder.zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/help/cs.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/help/en.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/help/es.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/help/ja.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/help/ko.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/help/pl.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/help/ru.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/i18n/help/sk.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/jquery-1.11.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/js/proxy/elFinderSupportVer1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/elfinder/sounds/rm.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/img/fj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/img/fjj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/img/iot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/img/zyzx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/iview/iview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/iview/iview.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/iview/styles/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/iview/styles/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/iview/styles/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/iview/styles/iview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/libs/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/static/libs/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/templates/disk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/templates/file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/templates/file_fe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/templates/file_fe2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/templates/file_fe_upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_drive/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_manage_system/target/classes/com/geekcattle/UserManageApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/interceptor/MyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/interceptor/MyAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/interceptor/SysInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/interceptor/SysInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/file_fe/controller/FileDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/file_fe/controller/FileDownload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/web/FileListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/web/FileListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/file_fe.html" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/file_fe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/file_fe1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_manage_system/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/HardwareManageServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/controller/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/entity/UserBaseInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_manage_system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_manage_system/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_manage_system/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_manage_system/target/classes/com/cc/HardwareManageServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_manage_system/target/classes/com/cc/controller/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_manage_system/target/classes/com/cc/entity/UserBaseInfo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user_manage_system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/UserManageApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_manage_system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_manage_system/src/main/resources/templates/console/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/src/main/resources/templates/console/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_manage_system/src/main/resources/templates/console/right.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/src/main/resources/templates/console/right.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_manage_system/src/main/resources/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/src/main/resources/templates/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/com/geekcattle/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/templates/console/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/templates/console/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/templates/console/right.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/templates/console/right.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/templates/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.eot" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.woff" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/images/psd/collection.psd" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/images/psd/collection.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/images/psd/printer.psd" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/images/psd/printer.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/adminlte-2.3.7/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/plupload/Moxie.swf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/plupload/Moxie.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/plupload/Moxie.xap" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/plupload/Moxie.xap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/dialogs/wordimage/imageUploader.swf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/video-js/font/vjs.eot" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/video-js/font/vjs.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/video-js/font/vjs.woff" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/video-js/video-js.swf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/webuploader/Uploader.swf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/webuploader/Uploader.swf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/webuploader/Uploader.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/webuploader/image-upload/expressInstall.swf" beforeDir="false" afterPath="$PROJECT_DIR$/user_manage_system/target/classes/static/assets/webuploader/image-upload/expressInstall.swf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,7 +893,7 @@
     <session id="1807046747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.4" value="1" />
@@ -96,18 +902,19 @@
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
+          <entry key="class" value="5" />
           <entry key="css" value="5" />
           <entry key="file_fe" value="1" />
           <entry key="html" value="40" />
-          <entry key="iml" value="2" />
-          <entry key="java" value="101" />
+          <entry key="iml" value="5" />
+          <entry key="java" value="159" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="1" />
           <entry key="md" value="1" />
@@ -115,75 +922,58 @@
           <entry key="pom" value="1" />
           <entry key="properties" value="8" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="26" />
-          <entry key="yml" value="22" />
+          <entry key="xml" value="43" />
+          <entry key="yml" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="5" />
           <entry key="CSS" value="5" />
           <entry key="HTML" value="40" />
-          <entry key="IDEA_MODULE" value="2" />
+          <entry key="IDEA_MODULE" value="5" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="101" />
+          <entry key="JAVA" value="159" />
           <entry key="JSP" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="Properties" value="8" />
           <entry key="Scratch" value="1" />
           <entry key="ThymeleafExpressions" value="1" />
-          <entry key="XML" value="27" />
-          <entry key="YAML" value="22" />
+          <entry key="XML" value="44" />
+          <entry key="YAML" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="57" />
+          <entry key="dummy" value="85" />
           <entry key="html" value="3160" />
-          <entry key="java" value="2651" />
+          <entry key="java" value="4368" />
           <entry key="properties" value="220" />
-          <entry key="txt" value="82" />
-          <entry key="xml" value="217" />
-          <entry key="yml" value="1011" />
+          <entry key="txt" value="103" />
+          <entry key="xml" value="286" />
+          <entry key="yml" value="1036" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="3160" />
-          <entry key="JAVA" value="2651" />
-          <entry key="PLAIN_TEXT" value="139" />
+          <entry key="JAVA" value="4368" />
+          <entry key="PLAIN_TEXT" value="188" />
           <entry key="Properties" value="220" />
-          <entry key="XML" value="217" />
-          <entry key="YAML" value="1011" />
+          <entry key="SQL" value="3" />
+          <entry key="XML" value="283" />
+          <entry key="YAML" value="1036" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/resources/templates/home/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/controller/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/controller/socketTest.java">
+        <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="153">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -194,6 +984,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -207,6 +998,7 @@
       <find>fileRootPath</find>
       <find>back_catalog</find>
       <find>jdbc</find>
+      <find>jpa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,27 +1007,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/entity/User.java" />
-        <option value="$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/dao/UserBaseInfoDao.java" />
-        <option value="$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/service/UserBaseInfoService.java" />
-        <option value="$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/service/serviceImpl/UserBaseInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/entity/UserBaseInfo.java" />
-        <option value="$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/controller/UserBaseInfoController.java" />
-        <option value="$PROJECT_DIR$/eureka_server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka_server/src/main/java/com/cc/eureka.java" />
-        <option value="$PROJECT_DIR$/eureka_server/src/main/java/com/cc/eureka/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/Application.java" />
-        <option value="$PROJECT_DIR$/hardware_manage_system/pom.xml" />
         <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/entity/UserBaseInfo.java" />
         <option value="$PROJECT_DIR$/eureka_server_backups/pom.xml" />
         <option value="$PROJECT_DIR$/eureka_server_backups/src/main/java/eureka/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/eureka_server_backups/src/main/java/eureka/EurekaServerBackupsApplication.java" />
         <option value="$PROJECT_DIR$/eureka_server_backups/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka_server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/HardwareManageServerApplication.java" />
-        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/controller/Test.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/user_manage_system/src/main/java/com/cc/UserManageServerApplication.java" />
         <option value="$PROJECT_DIR$/hardware_drive/src/main/java/com/cc/HardwareDriveApplication.java" />
         <option value="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/Application.java" />
@@ -256,15 +1034,30 @@
         <option value="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/file_fe1.html" />
         <option value="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/interceptor/MyAdapter.java" />
         <option value="$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/common/interceptor/SysInterceptor.java" />
-        <option value="$PROJECT_DIR$/user_manage_system/pom.xml" />
-        <option value="$PROJECT_DIR$/user_manage_system/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/hardware_drive/src/main/resources/templates/file_fe.html" />
         <option value="$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/UserManageApplication.java" />
         <option value="$PROJECT_DIR$/user_manage_system/src/main/resources/templates/console/right.html" />
         <option value="$PROJECT_DIR$/user_manage_system/src/main/resources/templates/console/index.html" />
         <option value="$PROJECT_DIR$/user_manage_system/src/main/resources/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/test/java/com/cc/controller/socketTestTest.java" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/CarConfig.java" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/drive/CarConfig.java" />
         <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/controller/socketTest.java" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/drive/OrderCenter.java" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/entity/SocketConnectionInfo.java" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/dao/userAndEquipment.java" />
+        <option value="$PROJECT_DIR$/user_manage_system/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/drive/HardwareConfig.java" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/resources/mapper/UserAndEquipmentMapper.xml" />
+        <option value="$PROJECT_DIR$/user_manage_system/pom.xml" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/pom.xml" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/dao/UserAndEquipmentMapper.java" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/controller/BuildConnectionController.java" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/HardwareManageServerApplication.java" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/controller/Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hardware_manage_system/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -286,7 +1079,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hardware_manage_system" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hardware_manage_system" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -296,7 +1099,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
@@ -306,7 +1110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -339,49 +1142,13 @@
               <item name="hardware_manage_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware_manage_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware_manage_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware_manage_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cc" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware_manage_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -396,7 +1163,9 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582883846153" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582902414098" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-fileupload" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -409,16 +1178,22 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.cc.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="eureka" />
       <recent name="com.cc.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\intelliJ_IDEA\java_program\graduation_project\hardware_manage_system\src\main\resources\mapper" />
       <recent name="F:\study\intelliJ_IDEA\java_program\graduation_project\hardware_drive\src\main\resources\static\img" />
       <recent name="F:\study\intelliJ_IDEA\java_program\graduation_project\hardware_drive\src\main\resources\templates" />
       <recent name="F:\study\intelliJ_IDEA\java_program\graduation_project\hardware_drive\src\main\resources\static" />
       <recent name="F:\study\intelliJ_IDEA\java_program\graduation_project\eureka_server_backups\src\main\resources" />
-      <recent name="F:\study\intelliJ_IDEA\java_program\graduation_project\hardware_manage_system\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -433,7 +1208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.HardwareManageServerApplication">
     <configuration name="FileListController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itstyle.cloud.web.FileListController" />
       <module name="hardware_drive" />
@@ -443,6 +1218,35 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="socketTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cc.controller.socketTest" />
+      <module name="hardware_manage_system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cc.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="socketTestTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hardware_manage_system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cc.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cc.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.cc.controller.socketTestTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -457,14 +1261,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerBackupsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cc.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerBackupsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka_server_backups" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="eureka.EurekaServerBackupsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -496,34 +1301,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserManageServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="user_manage_system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cc.UserManageServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.Application (1)" />
-      <item itemvalue="Spring Boot.UserManageServerApplication" />
-      <item itemvalue="Spring Boot.HardwareManageServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerBackupsApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.UserManageApplication" />
       <item itemvalue="Application.FileListController" />
+      <item itemvalue="Application.socketTest" />
+      <item itemvalue="JUnit.socketTestTest.test1" />
+      <item itemvalue="Spring Boot.HardwareManageServerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserManageApplication" />
-        <item itemvalue="Application.FileListController" />
-        <item itemvalue="Spring Boot.UserManageServerApplication" />
         <item itemvalue="Spring Boot.HardwareManageServerApplication" />
-        <item itemvalue="Spring Boot.EurekaServerBackupsApplication" />
+        <item itemvalue="Spring Boot.UserManageApplication" />
+        <item itemvalue="Application.socketTest" />
+        <item itemvalue="JUnit.socketTestTest.test1" />
+        <item itemvalue="Application.FileListController" />
       </list>
     </recent_temporary>
   </component>
@@ -547,7 +1341,8 @@
       <workItem from="1582684273193" duration="4388000" />
       <workItem from="1582708560128" duration="3778000" />
       <workItem from="1582771245071" duration="42313000" />
-      <workItem from="1582868831124" duration="10490000" />
+      <workItem from="1582868831124" duration="21580000" />
+      <workItem from="1582899025938" duration="2776000" />
     </task>
     <task id="LOCAL-00001" summary="第一次修改">
       <created>1582789513758</created>
@@ -577,19 +1372,48 @@
       <option name="project" value="LOCAL" />
       <updated>1582826822339</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="用户修改完成，socket与单片机连接">
+      <created>1582883935858</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582883935858</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="socketTestTest_test1 - 2020.02.28 at 18h 18m 25s.xml">
+      <configuration name="socketTestTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="socketTestTest_test1 - 2020.02.28 at 18h 18m 53s.xml">
+      <configuration name="socketTestTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="socketTestTest_test1 - 2020.02.28 at 18h 19m 29s.xml">
+      <configuration name="socketTestTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="socketTestTest_test1 - 2020.02.28 at 18h 22m 48s.xml">
+      <configuration name="socketTestTest.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93979000" />
+    <option name="totallyTimeSpent" value="107845000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25067025" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.2546917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="JRebel" order="2" sideWeight="0.50139666" side_tool="true" weight="0.2546917" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -598,18 +1422,18 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70241284" weight="0.3282123" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7205094" visible="true" weight="0.3980447" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70241284" weight="0.32402235" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7205094" weight="0.40223464" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.27949062" side_tool="true" weight="0.3980447" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32960895" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" weight="0.32960895" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4966488" weight="0.3282123" />
       <window_info anchor="bottom" id="Problems" order="16" />
@@ -618,7 +1442,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.38806972" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -638,185 +1462,14 @@
     <MESSAGE value="第一次修改" />
     <MESSAGE value="hardware drive修改完成，下一步添加用户登陆" />
     <MESSAGE value="hardware drive修改完成，文件浏览" />
-    <option name="LAST_COMMIT_MESSAGE" value="hardware drive修改完成，文件浏览" />
+    <MESSAGE value="用户修改完成，socket与单片机连接" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户修改完成，socket与单片机连接" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/file_fe/controller/FileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="71" column="42" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/templates/file_fe" />
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/templates/file.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/static/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="622" selection-start-line="1" selection-start-column="622" selection-end-line="1" selection-end-column="622" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/model/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/model/common/Upload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/model/console/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="150" column="48" lean-forward="true" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/entity/ResponseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/entity/FileInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/utils/FilePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="110" selection-start-line="28" selection-start-column="16" selection-end-line="29" selection-end-column="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/static/assets/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7922">
-          <caret line="466" column="24" selection-start-line="466" selection-start-column="4" selection-end-line="466" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/templates/file_fe2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="69" column="29" lean-forward="true" selection-end-line="129" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/web/FileListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/web/CloudDiskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428">
-          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/java/com/itstyle/cloud/file_fe/controller/FileDownload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/static/assets/css/amazeui.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret column="52301" selection-start-column="52301" selection-end-column="52301" />
-          <folding>
-            <element signature="e#41987#42310#1" expanded="true" />
-            <element signature="e#171285#172400#2" expanded="true" />
-            <element signature="e#173179#175302#2" expanded="true" />
-            <element signature="e#175449#177656#2" expanded="true" />
-            <element signature="e#177808#178199#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hardware_drive/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="96" column="19" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#fieldset#0;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,23 +1498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="n#style#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_manage_system/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="67" column="48" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -876,10 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,13 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/UserManageApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -1015,17 +1640,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/controller/Test.java">
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/test/java/com/cc/controller/socketTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="17" column="101" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/mapper/console/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/mapper/console/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/model/valid/ValidAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/core/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_manage_system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="187" column="131" lean-forward="true" selection-start-line="187" selection-start-column="90" selection-end-line="187" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_manage_system/src/main/java/com/geekcattle/UserManageApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/controller/BuildConnectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/controller/socketTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/resources/mapper/UserAndEquipmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/dao/UserAndEquipmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/drive/HardwareConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/drive/OrderCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/entity/SocketConnectionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-407">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/entity/UserBaseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/hardware_manage_system.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="153" column="35" selection-start-line="153" selection-start-column="35" selection-end-line="153" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_server/eureka_server.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/java/com/cc/HardwareManageServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation_project.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware_manage_system/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
